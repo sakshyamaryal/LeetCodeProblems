@@ -90,9 +90,10 @@ class Solution {
         
         if(incrementcounte == n-1) {
             return maxfreq;
-        }else {
-            return -1;
         }
+        
+        return -1;
+        
         
     }
 }
