@@ -1,0 +1,29 @@
+[
+    {
+        "label": "Solution",
+        "kind": 6,
+        "importPath": "2143_rearragearrbysign",
+        "description": "2143_rearragearrbysign",
+        "peekOfCode": "class Solution(object):\n    def rearrangeArray(self, nums):\n        \"\"\"\n        :type nums: List[int]\n        :rtype: List[int]\n        \"\"\"\n        positive = []\n        negative = []\n        for n in nums:\n            if n > 0:",
+        "detail": "2143_rearragearrbysign",
+        "documentation": {}
+    },
+    {
+        "label": "Solution",
+        "kind": 6,
+        "importPath": "2917_polygon_with_largeparam",
+        "description": "2917_polygon_with_largeparam",
+        "peekOfCode": "class Solution(object):\n    def largestPerimeter(self, nums):\n        \"\"\"\n        :type nums: List[int]\n        :rtype: int\n        \"\"\"\n        nums.sort()\n        ans = -1\n        sumans = 0\n        for num in nums:",
+        "detail": "2917_polygon_with_largeparam",
+        "documentation": {}
+    },
+    {
+        "label": "Solution",
+        "kind": 6,
+        "importPath": "Find-first-palindromic-string",
+        "description": "Find-first-palindromic-string",
+        "peekOfCode": "class Solution(object):\n    def firstPalindrome(self, words):\n        \"\"\"\n        :type words: List[str]\n        :rtype: str\n        \"\"\"\n        revword = ''\n        for i in words:\n            char_array = [char for char in i]\n            revword = ''",
+        "detail": "Find-first-palindromic-string",
+        "documentation": {}
+    }
+]
